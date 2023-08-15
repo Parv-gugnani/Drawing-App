@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+canvas {
+  border: 1px solid black;
+}
+.controls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.controls label {
+  margin-right: 10px;
+}
+
+.controls input[type="color"] {
+  margin-right: 5px;
+}
